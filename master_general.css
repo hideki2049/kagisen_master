@@ -1,0 +1,269 @@
+
+
+        body{
+            margin:0px;
+        }
+        
+        .side_menu{
+            background-color: #fef9e9;
+            width:10%;
+            height:100%;
+            position: fixed;
+            margin: 0px 0px 0px 0px;
+            font-size:125%;
+            text-decoration:none;
+        }
+        
+        
+        .host{
+           border: 2px solid #4169e1;
+           border-color: black;
+        }
+        
+        .sub{
+            margin-left: 15%;
+        }
+        
+        a:hover{
+            color: red;
+        }
+        a{
+            text-decoration:none;
+        }
+        
+        .home_button{
+            margin-top:10%
+        }
+        
+        .accunt_button{
+            margin-top:30%;
+        }
+        
+        .question_button{
+            margin-top:20%;            
+        }
+        
+        .reference_button{
+            margin-top:20%;              
+        }
+        
+
+        .event_notice{
+            background-color: white;
+            width:90%;
+            height: 7%;
+            margin-left: 10%;
+            margin-right: auto;
+        }
+        
+        .log_login{
+            background-color: white;
+            width:90%;
+            height: 7%;
+            margin-left: 10%;
+            margin-right: auto;
+        }
+        
+        .main{
+            background-color: white;
+            width:90%;
+            height:86%;
+            margin-left: 10%;
+            margin-right: auto;            
+        }
+        .user_name{
+            width: 200px;
+            height:30px;
+            margin-left:80%;
+        }
+        
+        label{
+            font-size: 20px;
+        }
+        
+        select{
+
+            background: white;
+            border: 1px solid black;
+            padding: 7px;
+            border-radius: 0px;
+            font-size: 100%;
+            color: black;
+        }
+        
+        input[type="text"] {
+            border: 1px solid #999;
+            height: 5%;
+            font-size: 18px;
+            text-align:center;
+        }
+
+        
+        /* ここからテーブル　*/
+        table {
+            border-collapse: collapse;
+            text-align: left;
+            line-height: 1.5;
+            border-left: 1px solid #ccc;
+           
+        }
+
+        table thead th {
+            padding: 10px;
+            font-weight: bold;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 2px solid #c00;
+            background: #dcdcd1;
+        }
+
+        table tbody th {
+            width: 50px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            background: #ececec;
+        }
+
+        table td {
+            width: auto;
+            padding: 10px;
+            vertical-align: top;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .table_student{
+            margin-left: auto;
+            margin-right:auto;
+            
+        }
+        
+        
+        .search_teable{
+            background-color:transparent;
+            border-collapse: collapse;
+            text-align: left;
+            line-height: 1.5;
+            width: 50px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            background: #fff;
+        }
+        
+
+        
+        #list1{
+            border: 1px solid #ccc;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            text-align: left;
+            line-height: 1.5;
+            border-left: 1px solid #ccc;
+        }
+        #list1 > td {
+            width: auto;
+            padding: 10px;
+            vertical-align: top;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #list1 > tbody th {
+            width: 50px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            background: #ececec;
+        }
+        
+        #list1 > thead th {
+            padding: 10px;
+            font-weight: bold;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 2px solid #c00;
+            background: #dcdcd1;
+        }
+        
+        list1 >  tbody th {
+            width: 50px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            background: #ececec;
+        }
+        
+
+       
+        /* ここまでテーブル　*/
+        
+        /* ここから編集ボタン　*/
+        .edit_btn{
+            display: inline-block;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            background: #668ad8;/*ボタン色*/
+            color: #FFF;
+            border-bottom: solid 4px #627295;
+            border-radius: 3px;
+            border-style: none;
+
+        }
+        .edit_btn:active {/*ボタンを押したとき*/
+            -ms-transform: translateY(4px);
+            -webkit-transform: translateY(4px);
+            transform: translateY(4px);/*下に動く*/
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+            border-bottom: none;
+        }
+        
+        #search_btn{
+            display: inline-block;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            background: #668ad8;/*ボタン色*/
+            color: #FFF;
+            border-bottom: solid 4px #627295;
+            border-radius: 3px;
+            border-style: none;
+
+        }
+        
+        #selectAnswer1{
+            display: inline-block;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            background: #668ad8;/*ボタン色*/
+            color: #FFF;
+            border-bottom: solid 4px #627295;
+            border-radius: 3px;
+            border-style: none;
+        }
+        
+        .search_btn:active {/*ボタンを押したとき*/
+            -ms-transform: translateY(4px);
+            -webkit-transform: translateY(4px);
+            transform: translateY(4px);/*下に動く*/
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+            border-bottom: none;
+        }
+        /* ここまで編集ボタン　*/
+        
+        
+
+        
+        
+       

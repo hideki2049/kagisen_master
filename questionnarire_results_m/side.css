@@ -1,0 +1,97 @@
+body{
+    margin:0px;
+}
+
+.side_menu{
+    background-color: #fef9e9;
+    width:10%;
+    height:100%;
+    position: fixed;
+    margin: 0px 0px 0px 0px;
+    font-size:125%;
+    text-decoration:none;
+}
+
+
+.host{
+   border: 2px solid #4169e1;
+   border-color: black;
+}
+
+.sub{
+    margin-left: 15%;
+}
+
+a:hover{
+    color: red;
+}
+a{
+    text-decoration:none;
+}
+
+.home_button{
+    margin-top:10%
+}
+
+.accunt_button{
+    margin-top:30%;
+}
+
+.question_button{
+    margin-top:20%;
+}
+
+.reference_button{
+    margin-top:20%;
+}
+
+
+.event_notice{
+    background-color: white;
+    width:90%;
+    height: 7%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.log_login{
+    background-color: white;
+    width:90%;
+    height: 7%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.main{
+    background-color: white;
+    width:90%;
+    height:86%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.user_name{
+    width: 200px;
+    height:30px;
+    margin-left:80%;
+}
+
+label{
+    font-size: 20px;
+}
+
+select{
+
+    background: white;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 0px;
+    font-size: 100%;
+    color: black;
+}
+
+input[type="text"] {
+    border: 1px solid #999;
+    height: 5%;
+    font-size: 18px;
+    text-align:center;
+}

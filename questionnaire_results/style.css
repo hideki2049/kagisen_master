@@ -1,0 +1,60 @@
+/*#list table{
+border-collapse: collapse;
+}*/
+
+#list1Contents_h,#list2Contents_h,#chart_div0_h,#chart_div1_h{
+  text-align: center;
+  margin-top: 30px;
+}
+#list1 td{
+border: solid 1px #949292;
+padding: 0.5em;
+}
+#list1{
+  border: solid 1px #000;
+}
+#list1Contents{
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;/*800*/
+}
+
+
+#list2Contents{
+  /*background: #000;*/
+  /*width: 300px;*/
+  width: 750px;/*700*/
+  margin-left:auto;
+  margin-right:auto;
+  /*margin-top: 30px;*/
+}
+#list2_0{
+  width: 750px;/*700*/
+  border: solid 1px #000;
+}
+#list2_0 td{
+border: solid 1px #949292;
+padding: 0.5em;
+}
+
+/*#chart_div0,#chart_div1{
+  border: 1px solid #000;
+}*/
+
+#chart_div0,#chart_div1{
+  /*margin-top: 30px;*/
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#error{
+  width: 600px;
+  border: 1px solid #d64b4b;
+  margin-left:auto;
+  margin-right:auto;
+  color: #d64b4b;
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 6px;
+}
