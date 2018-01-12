@@ -27,7 +27,7 @@ $questtype = 2;
      t_student inner join t_answer2
      on t_student.studentnum = t_answer2.studentnum
      where t_student.year = ? and t_student.grade = ? and t_student.subjectcd = ? and t_student.cls = ?
-     and t_answer2.year = ? and t_answer2.semester = ? and t_answer2.teachercd = ? and t_answer2.questnum in (select questnum from t_questcontent where year = ? and questtype = ?)
+     and t_answer2.year = ? and t_answer2.semester = ? and t_answer2.teachercd = ? and t_answer2.questnum in (select questnum from t_questcontent where year = ? and questtype = ?) 
      order by t_answer2.questnum, t_answer2.studentnum');
     $stmt->execute(array($yearData,$gradeData,$subjectcdData,$clsData,
                           $yearData,$semesterData,$teachercd,$yearData,$questtype));
